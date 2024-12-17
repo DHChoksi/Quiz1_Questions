@@ -1,4 +1,6 @@
 package prototype;
 
-public class Prototype {
+public interface Prototype extends Cloneable
+{
+    Object clone() throws CloneNotSupportedException;
 }
